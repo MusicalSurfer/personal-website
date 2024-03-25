@@ -1,0 +1,16 @@
+-- INSERT INTO restaurant (name) VALUES ('Yummy');
+-- INSERT INTO entree (name, restaurant_id) VALUES ('French fries', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Potatoes', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Fried Potatoes', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Steamed Potatoes', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Boiled Potatoes', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Crock Pot Potatoes', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Stir Fried Potatoes', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Hash Browns', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Red Potatoes', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Yellow Potatoes', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Mashed Potatoes', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Potato Pancakes', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Mixed Potatoes', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Raw potatoes', 1);
+-- INSERT INTO entree (name, restaurant_id) VALUES ('Rotten Potatoes', 1);
