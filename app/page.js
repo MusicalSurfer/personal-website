@@ -1,9 +1,13 @@
-import Image from "next/image";
+import Landing from "./components/Landing.jsx";
+import Header from "./components/Header.jsx";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Hello world</h1>
-    </main>
+    <div className="main-container flex min-h-screen flex-col justify-start items-center bg-custom-gradient py-24 px-300px font-sans antialiased">
+      <div className="main-sub-container w-full h-full rounded-sm after:w-90px after:h-90px">
+        <Header />
+        <Landing />
+      </div>
+    </div>
   );
 }
