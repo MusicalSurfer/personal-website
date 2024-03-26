@@ -123,7 +123,8 @@ module.exports = {
       backgroundImage: {
         'border-gradient': 'linear-gradient(135deg, #f8f8f8 0%, #fff 98.8%)',
         'custom-gradient': 'linear-gradient(180deg, #3d5a80 70%, #3d6080)',
-        'read-more-gradient': 'linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff)',
+        'picture-gradient': 'linear-gradient(180deg, #3d5a80 70%, #3d6080)',
+        'read-more-gradient': 'radial-gradient(hsla(0, 0%, 100%, 0) 90%, #3d5a80)',
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
