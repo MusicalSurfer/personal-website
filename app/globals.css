@@ -2,10 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --border: 3px;
+  --color1: #6be89b;
+  --color2: #0076a5;
+  --from: 30deg;
+  --distance: 46%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,4 +36,71 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(1.1)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(1.1)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    /* Start from being invisible */
+  }
+
+  100% {
+    opacity: 1;
+    /* End at fully visible */
+  }
+}
+
+@keyframes grow {
+  0% {
+    height: 0;
+    transform: scaleX(0);
+    transform-origin: center;
+  }
+
+  100% {
+    height: 100%;
+    transform: scaleX(1);
+  }
+}
+
+.header-details {
+  animation: fadeDown .5s;
+}
+
+.welcome-text {
+  animation: fadeIn 2s ease-out forwards;
+  /* Apply the fadeIn animation */
+}
+
+.welcome-details {
+  animation: fadeUp .5s;
+  /* Apply the animation */
+}
+
+.project-list {
+  animation: grow 3s forwards;
 }

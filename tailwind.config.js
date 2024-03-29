@@ -124,6 +124,7 @@ module.exports = {
         'border-gradient': 'linear-gradient(135deg, #f8f8f8 0%, #fff 98.8%)',
         'custom-gradient': 'linear-gradient(180deg, #3d5a80 70%, #3d6080)',
         'picture-gradient': 'linear-gradient(180deg, #3d5a80 70%, #3d6080)',
+        'border-gradient': 'linear-gradient(to right, #3d5a80, hsla(0, 0%, 100%, 0))',
         'read-more-gradient': 'radial-gradient(hsla(0, 0%, 100%, 0) 90%, #3d5a80)',
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
