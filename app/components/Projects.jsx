@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div className="projects-sub-container mt-80 flex flex-row justify-between">
+    <div className="projects-sub-container mt-80 flex flex-row justify-between text-white">
       <div className="project-title">
         <div data-aos="fade-in" className="border-line pb-2 border-b-2 border-white w-52">
           <h1 data-aos="fade-right" className="text-left text-6xl">Projects</h1>
