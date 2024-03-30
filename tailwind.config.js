@@ -120,6 +120,13 @@ module.exports = {
         '3px': '3px',
         '.048px': '.048px',
       },
+      borderRadius: {
+        'profile': '50%',
+      },
+      translate: {
+        '2px': '2px',
+        '-7px': '-7px',
+      },
       backgroundImage: {
         'border-gradient': 'linear-gradient(135deg, #f8f8f8 0%, #fff 98.8%)',
         'custom-gradient': 'linear-gradient(180deg, #3d5a80 70%, #3d6080)',

@@ -1,6 +1,6 @@
 const Landing = () => {
   return (
-    <div className="welcome-container justify-between ml-6 text-light-blue flex flex-col items-start mt-80">
+    <div className="welcome-container justify-between ml-6 text-white flex flex-col items-start mt-80">
       <div className="outer-border">
         <div className="inner-border relative">
           <div className="welcome-details">
