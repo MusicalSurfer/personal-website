@@ -23,7 +23,7 @@ export default function Home() {
       <div className="main-sub-container bg-custom-gradient flex-grow w-full relative px-300px min-h-screen">
         <Landing />
       </div>
-      <div className="projects-container w-full relative px-300px min-h-screen bg-shale-grey">
+      <div id="projects" className="projects-container w-full relative px-300px min-h-screen bg-shale-grey">
         <Projects />
       </div>
       <div className="about-me-container w-full relative px-300px min-h-screen bg-light-blue">
