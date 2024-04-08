@@ -18,6 +18,12 @@ module.exports = {
       backgroundImage: ['after', 'before'],
       top: ['after', 'before'],
 
+      screens: {
+        'tablet': '640px',
+        'laptop': '1280px',
+        'desktop': '1280px',
+        'lg-desktop': '1440px',
+      },
       colors: {
         "deep-blue": "#3d5a80",
         "deep-light-blue": "#98c1d9",
@@ -119,6 +125,13 @@ module.exports = {
         wider: '.08em',
         '3px': '3px',
         '.048px': '.048px',
+      },
+      borderRadius: {
+        'profile': '50%',
+      },
+      translate: {
+        '2px': '2px',
+        '-7px': '-7px',
       },
       backgroundImage: {
         'border-gradient': 'linear-gradient(135deg, #f8f8f8 0%, #fff 98.8%)',

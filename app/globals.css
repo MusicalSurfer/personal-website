@@ -87,20 +87,34 @@ body {
   }
 }
 
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0px) scale(1)
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(30px) scale(1.1);
+  }
+}
+
 .header-details {
   animation: fadeDown .5s;
 }
 
 .welcome-text {
   animation: fadeIn 2s ease-out forwards;
-  /* Apply the fadeIn animation */
 }
 
 .welcome-details {
   animation: fadeUp .5s;
-  /* Apply the animation */
 }
 
-.project-list {
-  animation: grow 3s forwards;
+.animate-out {
+  animation: fadeOut .3s forwards;
+}
+
+.animate-in {
+  animation: fadeUp .3s forwards;
 }
