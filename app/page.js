@@ -18,17 +18,17 @@ export default function Home() {
 
   return (
     <div className="main-container flex flex-col min-h-screen justify-between items-center font-sans antialiased">
-      <div className="header top-0 z-40 px-300px w-full bg-shale-grey">
+      <div className="header top-0 z-40 lg-desktop:px-300px desktop:px-108px w-full bg-shale-grey">
         <Header />
       </div>
       <ScrollNav />
-      <div className="main-sub-container bg-custom-gradient flex-grow w-full relative px-300px min-h-screen">
+      <div className="main-sub-container lg-desktop:px-300px bg-deep-blue flex-grow w-full relative min-h-screen">
         <Landing />
       </div>
-      <div id="projects" className="projects-container w-full relative px-300px min-h-screen bg-shale-grey">
+      <div id="projects" className="projects-container w-full relative lg-desktop:px-300px min-h-screen bg-shale-grey">
         <Projects />
       </div>
-      <div id="aboutMe" className="about-me-container w-full relative px-300px min-h-screen bg-white">
+      <div id="aboutMe" className="about-me-container w-full relative lg-desktop:px-300px min-h-screen bg-white">
         <AboutMe />
       </div>
     </div>

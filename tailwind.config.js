@@ -18,6 +18,12 @@ module.exports = {
       backgroundImage: ['after', 'before'],
       top: ['after', 'before'],
 
+      screens: {
+        'tablet': '640px',
+        'laptop': '1280px',
+        'desktop': '1280px',
+        'lg-desktop': '1440px',
+      },
       colors: {
         "deep-blue": "#3d5a80",
         "deep-light-blue": "#98c1d9",
