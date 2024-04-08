@@ -1,5 +1,5 @@
 import AppContext from '../context/Index.jsx';
-
+import { useContext } from 'react';
 const Header = () => {
   const { changeIsActive } = useContext(AppContext);
   const handleClick = () => {

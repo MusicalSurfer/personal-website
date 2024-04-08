@@ -1,9 +1,9 @@
-"use client";
+'use client';
 import { createContext, useState } from "react";
 
 const AppContext = createContext();
 
-export const ActiveProvider = ({ children }) => { // Include children here
+export function ActiveProvider({ children }) { // Include children here
   const [isActive, setIsActive] = useState(false);
 
   const changeIsActive = () => {
