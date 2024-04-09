@@ -22,13 +22,13 @@ export default function Home() {
         <Header />
       </div>
       <ScrollNav />
-      <div className="main-sub-container lg-desktop:px-300px bg-deep-blue flex-grow w-full relative min-h-screen">
+      <div className="main-sub-container lg-desktop:px-300px desktop:px-108px bg-deep-blue flex-grow w-full relative min-h-screen">
         <Landing />
       </div>
-      <div id="projects" className="projects-container w-full relative lg-desktop:px-300px min-h-screen bg-shale-grey">
+      <div id="projects" className="projects-container overflow-hidden w-full relative lg-desktop:px-300px desktop:px-108px min-h-screen bg-shale-grey">
         <Projects />
       </div>
-      <div id="aboutMe" className="about-me-container w-full relative lg-desktop:px-300px min-h-screen bg-white">
+      <div id="aboutMe" className="about-me-container w-full relative lg-desktop:px-300px desktop:px-108px min-h-screen bg-white">
         <AboutMe />
       </div>
     </div>

@@ -22,7 +22,7 @@ module.exports = {
         'tablet': '640px',
         'laptop': '1280px',
         'desktop': '1280px',
-        'lg-desktop': '1440px',
+        'lg-desktop': '1543px',
       },
       colors: {
         "deep-blue": "#3d5a80",
