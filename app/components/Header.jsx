@@ -15,14 +15,15 @@ const Header = () => {
             <span className="font-semibold text-xl tracking-tight">Grady Software Solutions</span>
           </a>
         </div>
-        <div className="flex flex-col translate-x-10">
+        <div className="flex flex-col justify-center items-center w-full p-0 m-0">
           <div className='desktop:hidden'>
             <button onClick={handleClick} className="px-3 py-2 border rounded text-deep-light-blue border-deep-light-blue hover:text-white hover:border-white">
               <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
             </button>
           </div>
-          <div className={`menu-border ${isActive ? 'opacity-100 visible' : 'opacity-0 invisible'} border-burnt-orange border-t-2 -translate-x-11 translate-y-1 w-32`}></div>
-          <div className={`${isActive ? 'opacity-100 visible' : '-translate-y-0 opacity-0 invisible'} welcome-details drop-down-menu w-32 translate-y-10 -translate-x-11 absolute transform duration-150  bg-light-blue rounded-md`}>
+          <div className={`menu-border border-burnt-orange transform duration-300 border-t-2 w-32 mt-2 z-50 ${isActive ? 'opacity-100 visible scale-x-100' : 'opacity-0 invisible scale-x-0'}`}>
+          </div>
+          <div className={`${isActive ? 'translate-y-20 opacity-100 visible' : 'translate-y-16 opacity-0 invisible'} welcome-details drop-down-menu w-32 absolute transform duration-150  bg-light-blue rounded-md`}>
             <div className="text-sm flex flex-col items-center desktop:flex-grow">
               <a href="#projects" className="block mt-2 desktop:inline-block text-base desktop:mt-0 text-deep-blue hover:text-white mr-4">
                 Projects
