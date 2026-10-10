@@ -62,7 +62,7 @@ const Header = () => {
             <a href="https://twitter.com/daniel_j_grady">
               <svg style={{ fill: "white", verticalAlign: "middle", marginRight: "10px", marginBottom: "2px", display: "inline-block" }} width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z" /></svg>
             </a>
-            <a href="mailto:gradysoftwaresolutions@gmail.com" className="text-sm px-4 py-2 leading-none border rounded text-light-blue border-light-blue hover:border-transparent hover:text-deep-blue hover:bg-white mt-4 desktop:mt-0">Contact Me</a>
+            <a href="#contact-form" className="text-sm px-4 py-2 leading-none border rounded text-light-blue border-light-blue hover:border-transparent hover:text-deep-blue hover:bg-white mt-4 desktop:mt-0">Start a project</a>
           </div>
         </div>
       </div>
